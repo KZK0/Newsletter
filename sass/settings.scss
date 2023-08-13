@@ -1,0 +1,62 @@
+// --------- Couleur du site ---------
+
+$color-background: #36384D;
+$color-btn: #232742;
+
+// --------- Nuance du site ---------
+
+$color-black: #000000;
+$color-grey: #a5a5a5;
+$color-white: #ffffff;
+
+// --------- Nuance shadows ---------
+
+$shadow-btn: #dddddd;
+$shadow-card: #00000040;
+
+// --------- Nuance police ---------
+
+$color-font: #252943;
+
+// --------- Police du site ---------
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto bold';
+    src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+
+
+// --------- Mixins et variables ---------
+
+$font-text: 'Roboto';
+
+$font-text-bold: 'Roboto bold';
+
+// - Responsive -
+
+// Small Mobil version
+$xs: 375px;
+
+// Mobil version
+$sm: 438px;
+
+// Large Mobil version
+$md: 475px;
+
+// --------- Ajustement du site ---------
+
+* {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $color-background;
+}
